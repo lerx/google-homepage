@@ -40,9 +40,31 @@ a:visited {
 }
 
 #searcharea {
-	/*margin: 0px auto;*/
 	padding: 10px;
 	padding-bottom: 40px;
+}
+
+#logo {
+	width: 269px;
+	height: 95px;
+	padding-top: 182px;
+	padding-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#searcharea input {
+	height: 25px;
+	width: 572px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#btn_group {
+	display: block;
+	text-align: center;
 }
 
 #searcharea button {
@@ -54,12 +76,7 @@ a:visited {
 	padding: 0px 8px;
 	height: 29px;
 	border-radius: 2px;
-}
-
-#logo {
-	width: 269px;
-	height: 95px;
-	padding-top: 112px;
+	display: inline-block;
 }
 
 #footer {
