@@ -31,12 +31,50 @@ a:visited {
 #header {
 	position: absolute;
 	height: 60px;
-	right: 2.5%;
-	padding: 20px;
+	right: 1.8%;
+	padding: 18px;
 }
 
 .header-space {
 	padding-left: 15px;
+}
+
+#header a {
+	display: inline-block;
+}
+
+#header a:nth-child(3) {
+	padding-right: 10px;
+}
+
+#signin {
+	font: bold 13px Arial,sans-serif;
+	color: #FFF;
+	cursor: default;
+	border: 1px solid #4285F4;
+	border-radius: 2px;
+	background-color: #4387FD;
+	padding: 0px 12px;
+	line-height: 28px;
+}
+
+#signin:hover {
+	text-decoration: none;
+}
+
+#apps {
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_e9f91fe3.png);
+	background-position: -60px 0px;
+	padding-left: 0px;
+	cursor: default;
+	opacity: 0.55;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+}
+
+#apps:hover {
+	opacity: 0.85;
 }
 
 #searcharea {
@@ -60,9 +98,10 @@ a:visited {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 10px;
+	padding-left: 5px;
 	font: 16px Arial,sans-serif;
 	color: #222;
+	border: 1px solid #DCDCDC;
 }
 
 #searcharea input:hover {
@@ -89,6 +128,13 @@ a:visited {
 	height: 29px;
 	border-radius: 2px;
 	display: inline-block;
+}
+
+#searcharea button:hover {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+	color: #222;
+	background: #F8F8F8;
 }
 
 #footer {
